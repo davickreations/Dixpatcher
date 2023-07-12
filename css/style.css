@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/truck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    background-color: rgba(7, 3, 58, 0.8);
+}
+
+.logo {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    opacity: 0.5;
+    color: #CD3700;
+}
+
+.track_btn {
+    background-color: #CD3700;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.track_btn:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #CD3700;
+    margin: 18px 0 18px;
+    line-height: 1;
+    font-size: 5em;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 28px;  
+  padding-bottom: 20px;
+}
+
+.track1 form {
+    position: relative;
+    width: 380px;
+    max-width: 100%;
+}
+
+.track1 form input:first-child {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #CD3700;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.track1 form input:last-child {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 30px ;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #CD3700;
+    color: #fff;
+    box-shadow: 0px 0px 20px #000, 0px 0px 15px #858585 ;
+    top: 6px;
+    right: 6px;
+}
+
+section {
+    padding: 80px 15% 70px;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.home-text {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-img {
+    width: 640px;
+    height: 640px;
+}
+
+.Ship {
+    margin-top: 0px;
+    padding-top: 0%;
+    background-color: #1211110c;
+}
+
+
+#manage {
+    margin-bottom: 0px;
+}
+
+.center-left {
+    text-align: center;
+}
+
+.center-left h3 {
+font-size: 1.5rem;
+text-align: center;
+font-weight: 600;
+letter-spacing: 1px;
+color: #CD3700;
+padding: 20px 0 0 10px;
+}
+
+.ship-content {
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+gap: 1.5rem;
+align-items: center;
+cursor: pointer;
+text-align: center;
+margin-top: 2rem;
+}
+
+.box img {
+    height: auto;
+    width: 70px;
+}
+
+.box {
+    padding: 25px 60px;
+    border: 0px solid #27408B;
+    border-radius: 30px;
+    padding: 20px 30px;
+    box-shadow: -11.729px -11.729px 32px rgba(255, 255, 255, 0.15);
+    transition: all .40s ease;
+}
+
+.box:hover {
+    transform: translateY(15px);
+}
+
+.wrapper {
+    margin: 200px auto;
+    width: 100%;
+    background-color: #858585;
+    padding: 5% 15% 5% 15%;
+    margin-top: 0;
+}
+
+#w-wrapper {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.wrapper img {
+    max-width: 320px;
+    float: right;
+    border: 0px solid #fff;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.w-textbox h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff4400;
+}
+
+
+
+.wrapper1 {
+    width: 100%;
+    padding: 5% 15% 5% 15%;
+    margin-top: 0;
+}
+
+.wrapper1 img {
+    max-width: 320px;
+    float: left;
+    border: 0px solid #fff;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.w-textbox h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff4400;
+}
