@@ -400,3 +400,10 @@ margin-top: 2rem;
 .a-textbox p {
     color: #000;
 }
+
+.about-main {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
