@@ -366,3 +366,37 @@ margin-top: 2rem;
     background-color: #CD3700;
     color: #fff;
 }
+
+
+
+
+.about-wrapper {
+    margin: 200px auto;
+    margin-right: 0;
+    width: 100%;
+    padding: 5% 15% 5% 15%;
+    margin-top: 0;
+}
+
+#a-wrapper {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.about-wrapper img {
+    max-width: 320px;
+    float: right;
+    border: 0px solid #fff;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.a-textbox h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff4400;
+}
+
+.a-textbox p {
+    color: #000;
+}
