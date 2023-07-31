@@ -1244,8 +1244,8 @@ form button:hover {
     /* Who WE Are section styles go here */
 
 .key-benefits, .differentiators, .success-stories {
-    max-width: 800px;
     margin: 0 auto;
+    margin-left: 20px;
     padding: 40px 0;
 }
 
