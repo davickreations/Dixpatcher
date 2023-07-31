@@ -29,36 +29,67 @@
         </nav>
            <!--Main Section-->
          <div class="about-main">
-             <h1 style="letter-spacing: normal;">Track</h1>
-             <h4>Track Your Shipment</h4>
-        
-    
+             <h1 style="letter-spacing: normal;">request a quote</h1>
+             <h4 style="text-transform: uppercase;">Get a Personalized Shipping Quot</h4>
          </div>
    </div>
+ 
+   <div class="quote-form">
+    <h2>Get a Personalized Shipping Quote</h2>
+    <form action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-   
-   <div class="track-container">
-    <h1>Track Your Shipment</h1>
-    <p>Enter your tracking number below to get real-time updates on your shipment:</p>
+        <label for="company">Company Name (optional)</label>
+        <input type="text" id="company" name="company">
 
-    <form class="track-form">
-        <label for="trackingNumber">Tracking Number:</label>
-        <input type="text" id="trackingNumber" name="trackingNumber" placeholder="Enter your tracking number..." required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
 
-        <button type="submit">Track Now</button>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="origin">Origin Address</label>
+        <select id="origin" name="origin" required>
+            <option value="" disabled selected>Select Origin Country</option>
+            <!-- Add options for countries here -->
+        </select>
+
+        <label for="destination">Destination Address</label>
+        <select id="destination" name="destination" required>
+            <option value="" disabled selected>Select Destination Country</option>
+            <!-- Add options for countries here -->
+        </select>
+
+        <label for="shipment-type">Shipment Type</label>
+        <select id="shipment-type" name="shipment-type" required>
+            <option value="" disabled selected>Select Shipment Type</option>
+            <option value="Parcel">Parcel</option>
+            <option value="Mail">Mail</option>
+            <option value="Freight">Freight</option>
+            <option value="Sea">Sea</option>
+            <option value="Local">Local</option>
+        </select>
+
+        <label for="weight-dimensions">Shipment Weight or Dimensions (if applicable)</label>
+        <input type="text" id="weight-dimensions" name="weight-dimensions">
+
+        <label for="preferred-date">Preferred Shipping Date</label>
+        <input type="date" id="preferred-date" name="preferred-date">
+
+        <label for="comments">Additional Comments or Special Instructions</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
     </form>
-
-    <div class="tracking-result">
-        <!-- The tracking result will be displayed here -->
-    </div>
 </div>
 
-
 <div class="cta-section">
-    <h2>Ready to Experience Hassle-free Shipping?</h2>
+    <h2>Experience Hassle-free Shipping with Dixpatcher</h2>
     <p>Contact us now to discuss your logistics needs and get a personalized shipping quote.</p>
     <a href="contact.html"><button>Contact Now</button></a>
-</div>   
+</div>
+
     
     <footer class="footer">
         <div class="footer-content">
